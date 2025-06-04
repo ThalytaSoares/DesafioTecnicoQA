@@ -58,13 +58,13 @@ npx cypress run --spec "caminho/para/os/testes/api"
 ## 📁 Organização do Projeto
 
 ```
-📂 tests/
- ├── ui/
- │   └── add_to_cart.cy.js
- └── api/
-     ├── add_cart.cy.js
-     ├── update_cart.cy.js
-     └── delete_cart.cy.js
+📂 Cypress
+├── 📂 DocumentosCasosTestes
+│ ├── 📄 CasosTesteFluxosCriticos
+│ └── 📄 FluxosCriticos
+└── 📂 E2E
+├── 📄 addCarrinho.cy.js
+└── 📄 testApi.cy.js
 📄 README.md
 📄 package.json
 ```
